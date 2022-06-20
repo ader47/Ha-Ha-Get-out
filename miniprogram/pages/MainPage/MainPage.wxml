@@ -1,0 +1,25 @@
+<!--pages/InfoSet/InfoSet.wxml-->
+<view class="Container">
+<view class="Top">
+    <image class="userinfo-avatar" src="http://m.qpic.cn/psc?/V50aj8wd0PeE1d4EIXzl3Jer7N26zaZ9/ruAMsa53pVQWN7FLK88i5hnV6BbU2SvhVea86eWDA.0CMMmIQM6yMhXXIoMZfthZoKqF95HjhYScWZuIL9Bu2uoCc5vETOJyso7glISwqg0!/b&bo=oACgAAAAAAABByA!&rf=viewer_4" mode="cover"></image>
+    <view class="Top-left">
+    <text class="nameShow" style="color: white;">{{name}}【学生】</text>
+    <text class="majorShow" style="color: rgb(198,216,255);">{{major}}党委 {{major}}</text>
+    </view>
+</view>
+
+<view class="Body">
+    <view class="white-background"  >
+        <text class="time" style="color: rgb(111,164,245);font-weight: 600;font-size: 3.7vh;">
+        {{time}}
+        </text>
+        <image class="QR-Code" src="http://m.qpic.cn/psc?/V50aj8wd0PeE1d4EIXzl3Jer7N26zaZ9/ruAMsa53pVQWN7FLK88i5rKZxWnccUOgGiBI5TSjmgf*nL6A60hDypFgLKofGAogDOVkeJnsliL3wXnuKQ.opqnJaa3rEWV3RCM7.8voJUM!/b&bo=HQIfAgAAAAADByA!&rf=viewer_4" ></image>
+        <text class="congra" style="color: rgb(88,192,99);font-weight: 600;font-size: 3.7vh;">祝你平安</text>
+            <text class="gate" style="color: rgb(88,192,99);">门岗-{{gate}}</text>
+    </view>
+</view>
+
+<view class="Bottom">
+    <text class="Developer-info" style="color: rgb(163,230,255);">{{DeveloperInfo}}</text>
+</view>
+</view>

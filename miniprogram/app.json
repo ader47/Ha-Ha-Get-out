@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/InfoSet/InfoSet",
+    "pages/MainPage/MainPage"
+  ],
+  "window": {
+    "navigationBarTitleText": "HaHa GetOut",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white"
+  },
+  "lazyCodeLoading": "requiredComponents",
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

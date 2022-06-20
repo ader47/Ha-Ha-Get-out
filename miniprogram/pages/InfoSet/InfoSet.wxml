@@ -1,0 +1,35 @@
+<!--pages/InfoSet/InfoSet.wxml-->
+<view class="Container">
+    <form bindsubmit="bindViewTap">
+        <input class="input1" type="text" placeholder="输入姓名" name='name'></input>
+        <view class='top'>
+        <!-- 下拉框 -->
+        <view class='top-selected' bindtap='bindShowMsg2'>
+            <text>{{major_name}}</text>
+        </view>
+        <!-- 下拉需要显示的列表 -->
+        <view class="select_box" wx:if="{{select2}}">
+            <view wx:for="{{majors}}" wx:key="unique">
+            <view class="select_one" bindtap="mySelectMajor" data-name="{{item}}">{{item}}</view>
+            </view>
+        </view>
+        </view>
+
+        <view class='top'>
+        <!-- 下拉框 -->
+        <view class='top-selected' bindtap='bindShowMsg1'>
+            <text>{{gate_name}}</text>
+        </view>
+        <!-- 下拉需要显示的列表 -->
+        <view class="select_box" wx:if="{{select1}}">
+            <view wx:for="{{gates}}" wx:key="unique">
+            <view class="select_one" bindtap="mySelectGate" data-name="{{item}}">{{item}}</view>
+            </view>
+        </view>
+        </view>
+
+
+        <button class="submitt" hover-class="wehx-button_hover" formType="submit">确定</button>
+    </form>
+    <image class="gif" src='http://m.qpic.cn/psc?/V50aj8wd0PeE1d4EIXzl3Jer7N26zaZ9/ruAMsa53pVQWN7FLK88i5i.TfchQE*9TYJUARqUKWNmxR.M8nm0GqgwVtL2lnPVRhgPWbbC9SLk6ScLEe**4urEsVbyfDOiSwVCHt2UEknM!/b&bo=*wP.AwAAAAADByM!&rf=viewer_4'></image>
+</view>

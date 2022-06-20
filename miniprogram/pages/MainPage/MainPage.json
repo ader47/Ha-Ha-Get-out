@@ -1,0 +1,9 @@
+{
+    "component": true,
+    "usingComponents": {},
+    "navigationBarTitleText": "查询结果",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "black",
+    "lazyCodeLoading": "requiredComponents"
+}

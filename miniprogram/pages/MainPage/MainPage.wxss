@@ -1,0 +1,74 @@
+/* pages/InfoSet/InfoSet.wxss */
+.Container{
+    background-image:url('http://photogz.photo.store.qq.com/psc?/V50aj8wd0PeE1d4EIXzl3Jer7N0i4tNU/ruAMsa53pVQWN7FLK88i5k4CV7ssQaUWh4f7jXorLQi.7VqEUWiTvEQcbY0aJoJsiTKjeyY3.TFzF0.n.bOB2nVsWtUYcliMAwG3fDDtsX8!/b&bo=fwJuAwAAAAADBzI!&rf=viewer_4');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+    border-radius: 50%;
+  }
+.white-background{
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    height: 81vh;
+    width: 95vw;
+    background-color: white;
+    border-radius: 3%;
+    display:flex;    
+    flex-direction: column;   
+    align-items: center;    
+}
+.QR-Code{
+    height: 45vw;
+    width: 45vw;
+    margin-top: 6.5vh;
+}
+.Developer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-small;
+    
+}
+  .Top{
+    display: flex;
+  }
+  .Body{
+      height: 83vh;
+  }
+  .Bottom{
+
+  }
+  .Top-left{
+    height: 148rpx;
+    width: 500rpx;
+    display: flex;
+    flex-direction: column;
+  }
+  .nameShow{
+      margin-left: 20rpx;
+      margin-top: 40rpx;
+      font-size: 35rpx;
+      font-weight: 600;  
+  }
+  .majorShow{
+      margin-left: 20rpx;
+      margin-top: 10rpx;
+      font-size: 25rpx;
+  }
+  .time{
+      margin-top: 8vh;
+  }
+  .congra{
+      margin-top: 2.7vh;
+  }
+  .gate{
+      margin-top: 1vh;
+  }
