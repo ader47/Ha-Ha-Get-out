@@ -7,18 +7,31 @@
     flex-direction: column;
     align-items: center;
 }
+.github{
+    height: 3vh;
+    width: 3vh;
+}
+.OpenSource{
+    height: 5vh;
+    width: 5vh;
+    background-color: #38393c;
+    top: 5vh;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
 
 .input1{
     height: 80rpx;
     width: 50vw;
     background-color:white;
-    margin-top: 15vh;
+    margin-top: 11vh;
     border-radius: 5px
 }
 
 .submitt{
     text-align: center;
-
     height: 5vh;
     background-color: #CC9900;
     margin-top: 10vh;
@@ -38,10 +51,6 @@
     font-size: 34rpx;
     background-color: white;
     border-radius: 5px
-  }
-  
-  .top-text {
-
   }
   
   /* 下拉框 */

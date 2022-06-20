@@ -1,5 +1,3 @@
-// index.ts
-// 获取应用实例
 const app = getApp<IAppOption>()
 Page({
   data: {
@@ -10,7 +8,6 @@ Page({
     major_name:'--请选择学院--',
     majors: ['机电工程学院', '商学院', '物联网工程学院', ]
   },
-
   bindShowMsg1() {
     this.setData({
       select1: !this.data.select1
@@ -37,6 +34,22 @@ Page({
       select2: false
     })
   },
+  github: function (e:any) {
+        wx.setClipboardData({
+          data: 'https://github.com/ader47/Ha-Ha-Get-out', 
+          success (res) {
+            wx.getClipboardData({
+              success (res) {
+                wx.showToast({
+                    title: '项目地址已复制至您的剪贴板！\n https://github.com/ader47/Ha-Ha-Get-out',
+                    icon: 'none',
+                    duration: 1000
+                  })
+              }
+            })
+          }
+        })
+},
 
   bindViewTap: function (e:any) {
     // console.log(e.detail.value.name)

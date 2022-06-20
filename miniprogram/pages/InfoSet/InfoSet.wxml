@@ -1,5 +1,9 @@
 <!--pages/InfoSet/InfoSet.wxml-->
 <view class="Container">
+    <button class="OpenSource" bindtap="github">
+        <image class='github' src='https://github.com/favicon.ico'></image>
+        <text style="color: white;">开源</text>
+    </button>
     <form bindsubmit="bindViewTap">
         <input class="input1" type="text" placeholder="输入姓名" name='name'></input>
         <view class='top'>
@@ -27,8 +31,6 @@
             </view>
         </view>
         </view>
-
-
         <button class="submitt" hover-class="wehx-button_hover" formType="submit">确定</button>
     </form>
     <image class="gif" src='http://m.qpic.cn/psc?/V50aj8wd0PeE1d4EIXzl3Jer7N26zaZ9/ruAMsa53pVQWN7FLK88i5i.TfchQE*9TYJUARqUKWNmxR.M8nm0GqgwVtL2lnPVRhgPWbbC9SLk6ScLEe**4urEsVbyfDOiSwVCHt2UEknM!/b&bo=*wP.AwAAAAADByM!&rf=viewer_4'></image>
