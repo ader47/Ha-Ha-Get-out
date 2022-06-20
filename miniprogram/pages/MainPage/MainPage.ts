@@ -27,21 +27,6 @@ Page({
         var nowTime = month+'月'+day+"日"+' '+hh+':'+mm;
         console.log(nowTime)
         this.setData({time:nowTime})
-          //写入数据库
-    // wx.request({
-    //     url: 'http://42.192.18.200/write.php',
-    //     method: 'GET',
-    //     data: {
-    //       name: this.data.name,
-    //       major: this.data.major,
-    //       gate: this.data.gate
-    //     },
-    //     header: {
-    //       'content-Type': 'application/x-www-form-urlencoded'
-    //     },
-    //   });
-  
-
       },
   
   })
